@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tooth Pain Diagnosis</title>
+</head>
+<body>
+    <h1>Tooth Pain Diagnosis</h1>
+
+    <form action="diagnose.php" method="POST">
+        <p>Do you have the following symptoms? Yes/No</p>
+
+        <label for="sudden">Do you experience sudden, intense, and throbbing pain?</label>
+        <input type="radio" name="sudden" value="yes"> Yes
+        <input type="radio" name="sudden" value="no"> No
+        <br>
+
+        <label for="dull">Do you experience dull and achy pain?</label>
+        <input type="radio" name="dull" value="yes"> Yes
+        <input type="radio" name="dull" value="no"> No
+        <br>
+
+        <label for="sweet">Do you experience sensitivity to sweet foods or drinks?</label>
+        <input type="radio" name="sweet" value="yes"> Yes
+        <input type="radio" name="sweet" value="no"> No
+        <br>
+
+        <label for="cold_short">Do you experience sensitivity to cold that lasts only a few seconds?</label>
+        <input type="radio" name="cold_short" value="yes"> Yes
+        <input type="radio" name="cold_short" value="no"> No
+        <br>
+
+        <label for="cold_long">Do you experience sensitivity to cold that lasts more than 30 seconds?</label>
+        <input type="radio" name="cold_long" value="yes"> Yes
+        <input type="radio" name="cold_long" value="no"> No
+        <br>
+
+        <!-- Add more input fields for the remaining symptoms -->
+
+        <input type="submit" value="Diagnose">
+    </form>
+</body>
+</html>
